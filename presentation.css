@@ -1,0 +1,56 @@
+.nav-menu{
+    display:flex;
+    flex-direction:row;
+    width:400px;
+    margin-left:10px;
+}
+.nav-session{
+    background-color: rgb(1, 1, 42);
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight: bold;
+    font-size:13px;
+    padding:10px 20px;
+}
+.main-contain{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.short-presentation{
+    display:grid;
+    grid-template-columns: 400px 1fr 1fr;
+    margin-top:25px;
+    margin-left: 30px;
+}
+.more-infos{
+    background-color:white;
+    height:350px;
+    width:100%; 
+    margin-left:30px;
+    margin-right: 0;
+    padding:0;
+    border-radius: 30px;
+    display:grid;
+    grid-template-columns: 1fr;
+    max-width:100;
+    overflow: hidden;
+    
+}
+progress{
+    appearance:none;
+    overflow:hidden;
+    border:none;
+    border-radius: 15px;
+    height:13px;
+}
+progress::-webkit-progress-bar{
+    background-color: rgb(9, 9, 85);
+}
+progress::-webkit-progress-value{
+    background-color:rgb(247, 125, 80);
+}
+
+.nav-session.active{
+    color:rgb(247, 125, 80);
+}
